@@ -13,7 +13,7 @@ y he tomado prestadas las imagenes, y algunos conceptos, como el mobile first y 
 - VITE
 - GIT
 
-#### [Link](https://www.youtube.com/watch?v=HOlvoOdIm-k&t=1722s&ab_channel=VidaMRR-Programacionweb/ "Tutorial").
+#### [Tutorial](https://www.youtube.com/watch?v=HOlvoOdIm-k&t=1722s&ab_channel=VidaMRR-Programacionweb/ "Tutorial").
 
 ##### DEMO
 
