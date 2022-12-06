@@ -59,7 +59,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 document.addEventListener("click", (e) => {
-  console.log(e.target);
 
   if (
     e.target.matches(".button-toggle") ||
@@ -74,7 +73,7 @@ document.addEventListener("click", (e) => {
     addClass(".submenu");
   }
 
-  if (e.target.matches(".button-next")) {
+  if (e.target.matches(".button-next") || e.target.matches(".button-next .material-symbols-outlined")) {
     let changed = count;
     count = count + 1 < videos.length ? count + 1 : count;
     if(count !== changed) {
@@ -82,7 +81,7 @@ document.addEventListener("click", (e) => {
     }
   }
 
-  if (e.target.matches(".button-prev")) {
+  if (e.target.matches(".button-prev") || e.target.matches(".button-prev .material-symbols-outlined")) {
     let changed = count;
     count = count - 1 >= 0 ? count - 1 : count;
     if(count !== changed) {
